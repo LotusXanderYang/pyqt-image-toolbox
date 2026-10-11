@@ -1,5 +1,5 @@
-numpy>=1.24
-opencv-python>=4.8
-PyQt5>=5.15
-scikit-image>=0.21
+numpy>=1.26,<2.3
+opencv-python>=4.10,<5
+PyQt5>=5.15.11,<5.16
+scikit-image>=0.24,<0.26
 

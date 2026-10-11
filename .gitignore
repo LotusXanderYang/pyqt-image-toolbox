@@ -8,4 +8,10 @@ venv/
 .DS_Store
 Thumbs.db
 *.log
+build/
+dist/
+*.spec
+*.exe
+*.zip
+test-settings.ini
 

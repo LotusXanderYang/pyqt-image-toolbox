@@ -1,0 +1,30 @@
+图像工具箱 2.0.0 · Windows 便携版
+
+使用方法
+1. 双击 ImageToolbox-2.0.0-Windows-x64.exe。
+2. 点击“打开图像”，或把图像拖放到窗口。
+3. 左侧选择工具，右侧调整参数，点击“应用处理”。
+4. 点击“保存图像”导出当前结果。
+
+软件无需安装 Python、无需 API Key，可离线运行。
+第一次启动需要解包内置依赖，请等待数秒。
+也可点击左下角“试用示例图像”，直接体验功能。
+
+快捷键
+Ctrl+O 打开    Ctrl+S 保存    Ctrl+Z 撤销
+Ctrl+Shift+Z 重做    Ctrl+Enter 应用    F1 使用指南
+
+默认在当前结果上继续处理。需要独立比较时，将右下角
+“处理输入”切换为“原始图像（独立处理）”。
+滚轮缩放图像，拖动平移，双击恢复适应窗口。
+
+程序处理的是 8 位 RGB 图像，不保留透明通道、高位深或 EXIF 元数据。
+修改后退出或打开其他图像时，软件会提醒保存当前结果。
+
+初始版本代码使用 DeepSeek 4.0 API 生成。
+后续版本经过 GUI、工程化和打包改进。
+项目自身源码保留 MIT 许可证；含 PyQt5 的完整软件按 GPL-3.0-or-later 发布。
+有关第三方组件和对应源码，见 THIRD_PARTY_NOTICES.md、DEPENDENCY_SOURCES.md。
+
+源代码、反馈与更新：
+https://github.com/LotusXanderYang/pyqt-image-toolbox
